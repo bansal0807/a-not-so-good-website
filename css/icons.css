@@ -1,0 +1,82 @@
+.icons  {
+  width:200px;
+  height: 200px;
+  margin-left:0;
+  position: fixed;
+  display: flex;
+  flex-direction:column;
+  top: 10%;
+  right:0%;
+  font-family: Verdana, sans-serif;
+
+}/*
+.icons a:hover{
+  margin-right: 0;
+  opacity: 20%;
+}*/
+
+.icons a i {
+  background: #ffffff;
+  border-radius: 20px;
+  height: 40px;
+  width:40px;
+  text-align: center;
+  line-height: 40px;
+  transition: all 0.7s;
+/*  transform: translate(300px,0px);*/
+}
+
+.icons a i:hover {
+  /*width: 200px;*/
+  /////* border-radius: 20%; */
+
+
+  padding-left: 10px;
+  transition: all 1.5s;
+
+  /*transform: translate(100px,0px);*/
+
+}
+
+.icons a{
+  padding: 5px;
+  margin: 2px;
+  transform: translate(150px,0px);
+  border: 1px;
+  border-radius: 30px;
+
+
+}
+.icons a:hover{
+  transform: translate(-2px,0px);
+
+  border: 1px solid #4ecdc4;
+  border-radius: 30px;
+  background:  linear-gradient(to right,#292f36,black);
+  box-shadow: 0 0 15px #4ecdc4;
+  border-right-color: inherit;
+  transition: all 0.7s;
+
+}
+
+.newsicon{
+  background-color: orange !important;
+  color:#ffffff !important;
+  flex-direction: row;
+}
+
+.facebookicon{
+  background-color: #3b5998 !important;
+  color:#ffffff !important;
+}
+
+.instagramicon{
+  background-color: #da1848!important;
+  color:#ffffff !important;
+}
+
+
+.phoneicon{
+  background-color: #74eb34!important;
+  color:#ffffff !important;
+}
