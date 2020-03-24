@@ -16,7 +16,7 @@ h5 {
     color:#ffffff !important;
 }
 
-a {
+.list-group a {
   color: #4ecdc4 !important;
   font-weight: 500;
   text-decoration: none;
@@ -132,4 +132,10 @@ footer {
   color:  #4ecdc4;
   box-shadow: 0 0 5px #4ecdc4 ;
   text-shadow: 0 0 5px  #4ecdc4;
+}
+
+.bicons ul li a i{
+  text-align: center;
+  line-height: 2 !important;
+
 }
