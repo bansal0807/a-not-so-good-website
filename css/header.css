@@ -11,7 +11,7 @@
   box-shadow: 2px 2px 5px #4ECDC4;
 }
 
-h2 {
+.header h2 {
   width = 50px;
   color: #FFFFFF;
   line-height: 25px;
@@ -25,7 +25,7 @@ h2 {
   position: absolute;
   text-shadow: 2px 2px 5px #808080;
 }
-img {
+.headerlogo {
   background-color: white;
   height:90px;
   width:90px;
@@ -78,7 +78,7 @@ img {
   right: 0;
   bottom: 10;
   position: absolute;
-
+  
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
