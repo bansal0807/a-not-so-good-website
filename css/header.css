@@ -6,39 +6,43 @@
 
   padding: 20px 10px;
   width:100%;
-  height:30%;
+  height:24%;
   position: relative;
-  box-shadow: 2px 2px 5px #4ECDC4;
+  box-shadow: 2px 2px 5px #087ae9;
 }
 
 .header h2 {
+  font-size: 30px;
   width = 100px;
   height = 20px;
   color: #FFFFFF;
   line-height: 120px;
   font-style: italic;
-  padding-left: 110px;
+  padding-left: 80px;
   padding-right: 180px;
 /*  background-color: red;*/
   float: left;
-  top: 20;
-  left: 130;
+  top: 0;
+  left: 80;
   position: absolute;
   text-shadow: 2px 2px 5px #808080;
 }
 .headerlogo {
   background-color: white;
-  height:170px;
-  width:180px;
+  height:100px;
+  width:100px;
   border-radius: 100px;
-  box-shadow: 2px 2px 5px #808080;
+  box-shadow: 2px 2px 5px #087ae9;
+  padding-top: 0;
 }
 
 .logo {
   padding-top: 0;
   margin-top: 0;
+  padding-left: 0;
   float: left;
   text-align: center;
+  width: 45%;
 
 }
 
