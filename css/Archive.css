@@ -1,0 +1,100 @@
+body{
+	padding: 0em;
+	margin: 0em;
+}
+
+/*Header related CSS*/
+.header {
+
+  overflow: hidden;
+  background-color:#20639B;
+  padding: 0em;
+  margin: 0em;
+  width:100%;
+  height:15%;
+  position: relative;
+}
+
+.logo img {
+	width: 5em;
+	height: 5em;
+	padding: 0em;
+	margin: 0em;
+}
+
+.header h2 {
+  font-size: 30px;
+  color: #FFFFFF;
+  line-height: 120px;
+  font-style: italic;
+  padding-left: 80px;
+  padding-right: 180px;
+  text-align: center;
+  height: 100%;
+  float: left;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 1.5em;
+  position: absolute;
+}
+.headerlogo {
+  background-color: white;
+  height:100px;
+  width:100px;
+  border-radius: 100px;
+  box-shadow: 2px 2px 5px #087ae9;
+  padding-top: 0;
+}
+
+.logo {
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 0;
+  float: left;
+  text-align: center;
+  width: 45%;
+
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+
+  color: white;
+  text-shadow:
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+  font-style: bold;
+}
+
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #173F5F
+/*  text-shadow: 3px 3px 6px #111111;
+*/}
+
+
+/* Float the link section to the right */
+.header-right {
+  right: 0;
+  bottom: 10;
+  position: absolute;
+
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
