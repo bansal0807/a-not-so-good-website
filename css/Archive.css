@@ -2,6 +2,9 @@ body{
 	padding: 0em;
 	margin: 0em;
 }
+.MenuBar-Mobile{
+	display: none;
+}
 /*Header related CSS*/
 .header {
   overflow: hidden;
@@ -13,12 +16,19 @@ body{
   position: relative;
 }
 
+
 .logo img {
 	width: 6em;
 	height: 6em;
 	padding: 0em;
 	margin: 0.5em;
+	background-color: #FFFFFF;
+	border-radius: 3em;
 	float: left;
+}
+
+.logo img:hover {
+	background-color: #9A9ABA;
 }
 
 .header h2 {
@@ -35,6 +45,8 @@ body{
   	float: left;
 
 }
+
+
 
 .logo {
   padding-top: 0;
@@ -62,9 +74,10 @@ body{
 
 /* Change the background color on mouse-over */
 .MenuBar-desktop a:hover {
-  background-color: #173F5F
-/*  text-shadow: 3px 3px 6px #111111;
-*/}
+  background-color: #173F5F;
+
+  box-shadow: 5px 5px 5px 2px #0e2433;
+}
 
 /* Float the link section to the right */
 .MenuBar-desktop{
@@ -80,7 +93,40 @@ body{
 	-ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
-/*
-.Archive-Scrolle::-webkit-scrollbar {
-  display: none;
-}*/
+@media only screen and (max-width: 525px) {
+	/*Phones*/
+	.logo h2{
+		font-size: 20px;
+	}
+	.logo img{
+		width: 4em;
+		height: 4em;
+		margin-top: 1em;
+	}
+	.logo{
+		width: 80%;
+		float:left;
+	}
+	.MenuBar-Mobile{
+		display: block;
+		right: 1em;
+		top:1em;
+		margin: auto;
+		padding: 0em;
+		position: absolute;
+		width: 15%;
+	}
+	.MenuBar-Mobile img{
+		width: 2em;
+		height: 2em;
+	}
+
+}
+@media only screen and (max-width: 650px) and (min-width: 525px) {
+	/*small tablets*/
+
+}
+@media only screen and (max-width: 860px) and (min-width: 650px)  {
+	/*medium tablets*/
+
+}
