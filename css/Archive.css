@@ -8,12 +8,14 @@ body{
 /*Header related CSS*/
 .header {
   overflow: hidden;
-  background-color:#20639B;
-  padding: 0em;
+  /*background-color:#20639B;*/
+	background-image: linear-gradient(to bottom right, #111122, #778899);
+	padding: 0em;
 	margin: 0em;
     width:100%;
-  height:15%;
-  position: relative;
+  	height:15%;
+  	position: relative;
+
 }
 
 
@@ -24,11 +26,17 @@ body{
 	margin: 0.5em;
 	background-color: #FFFFFF;
 	border-radius: 3em;
+	box-shadow: 2px 2px 5px #087ae9;
 	float: left;
 }
 
 .logo img:hover {
-	background-color: #9A9ABA;
+
+	background-color: #4ECDC4;
+    opacity: 0.8;
+    box-shadow: 3px 3px 6px #222222;
+    color: black;
+    text-shadow: 3px 3px 6px #111111;
 }
 
 .header h2 {
@@ -74,7 +82,7 @@ body{
 
 /* Change the background color on mouse-over */
 .MenuBar-desktop a:hover {
-  background-color: #173F5F;
+  background-color: #4ECDC4;
 
   box-shadow: 5px 5px 5px 2px #0e2433;
 }
