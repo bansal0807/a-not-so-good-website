@@ -1,0 +1,137 @@
+/*Mobiles*/
+.header {
+	overflow: hidden;
+	padding: 0em;
+	margin: 0em;
+    width:100%;
+  	height:6em;
+	background-image: linear-gradient(to bottom right, #111122, #778899);
+	box-shadow: 2px 2px 5px #087ae9;
+}
+.logo{
+	/*the img and the text combined*/
+	height: 100%;
+	width: 75%;
+	padding: 0em;
+	margin: 0em;
+	text-align: center;
+	float:left;
+}
+.logo img{
+	height: 5em;
+	margin:0.6em;
+	background-color: #FFFFFF;
+	border-radius: 2.5em;
+	box-shadow: 2px 2px 5px #087ae9;
+	float:left;
+}
+.logo img:hover {
+	background-color: #4ECDC4;
+    opacity: 0.8;
+    box-shadow: 3px 3px 6px #222222;
+    color: black;
+    text-shadow: 3px 3px 6px #111111;
+}
+.logo h2,h3{
+	color: #FFFFFF;
+	font-style: italic;
+	float:left;
+	padding: 0em;
+	margin: 0.25em;
+
+}
+.logo h2{
+	font-size: 2.4em;
+	position: absolute;
+	left: 3.2em;
+
+	top: 0.15em;
+}
+.logo h3{
+	font-size: 1.5em;
+	position: relative;
+	top:2.4em;
+	left: 1em;
+}
+.COSA-long{
+	display: none;
+}
+
+.MenuBar-desktop{
+	display: none;
+}
+.MenuBar-Mobile{
+	float: right;
+	height: 90%;
+	width: 20%;
+	padding:0.25em;
+}
+.MenuBar-Mobile img{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	float:right;
+	margin-top:1.5em;
+	margin-right:0.5em;
+	padding: 0em;
+	width: 50%;
+}
+
+
+@media only screen and (max-width: 850px) and (min-width: 525px) {
+	/*Tablets*/
+	.COSA-long{
+		display: block;
+	}
+	.COSA-short{
+		display: none;
+	}
+	.MenuBar-Mobile img{
+		width: 30%;
+	}
+}
+@media only screen and (max-width: 1440px) and (min-width: 850px) {
+	/*Laptops*/
+	.COSA-long{
+		display: block;
+	}
+	.COSA-short{
+		display: none;
+	}
+	.MenuBar-Mobile {
+		display:none;
+	}
+	.MenuBar-Desktop{
+		display: block;
+		float: right;
+	  	margin: 0.5em;
+	  	height:90%;
+		top:0;
+	}
+	.MenuBar-desktop a {
+	  float: left;
+	  color: white;
+	  text-align: center;
+	  padding: 0.4em;
+	  margin:0.1em;
+	  margin-top: 4em;
+	  text-decoration: none;
+	  font-size: 18px;
+	  line-height: 2em;
+	  border-radius: 0.25em;
+	  font-style: bold;
+	}
+	.MenuBar-desktop a:hover {
+	  background-color: #4ECDC4;
+	  text-shadow: 3px 3px 6px #111111;
+	  box-shadow: 5px 5px 5px 2px #0e2433;
+	}
+
+	.header {
+		height: 9em;
+	}
+	.logo{
+		margin-top: 1.5em;
+		width: 50%;
+	}
+}

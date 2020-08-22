@@ -1,14 +1,24 @@
 	<html lang="en" dir="ltr">
 	<head>  <meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link href="css/Archive.css" rel="stylesheet">
+		<link href="css/Archive-Header.css" rel="stylesheet">
+		<link href="css/Archive-Body.css" rel="stylesheet">
 		<title>Council of Student Affairs, IIT Bhilai</title>
 	</head>
+	<script type="text/javascript">
+		function ToggleMobileMenu() {
+			alert("function not complete");
+		}
+	</script>
 	<body>
 		<div class="header">
 			<div class="logo">
-				<a href="index.html">  <img src="/res/CoSAblue.png"></a>
-				<h2>Council of Student Affairs</h2>
+				<a href="index.html">  <img src="res/CoSAblue.png"></a>
+				<h2 class="COSA-long">Council of Student Affairs</h2>
+				<h2 class="COSA-short">COSA</h2>
+
+				<h3 class="COSA-long">Indian Institute Of Technology Bhilai</h3>
+				<h3 class="COSA-short">IIT Bhilai</h3>
 			</div>
 			<div class="MenuBar-desktop">
 				<a class="active" href="#home">Home</a>
@@ -20,11 +30,13 @@
 				<a href="Archive-Page.html">Archive</a>
 			</div>
 			<div class="MenuBar-Mobile">
-				<img src="/res/ham.svg" alt="Open Menu">
+				<img src="res/ham.svg" alt="Menu" onclick="ToggleMobileMenu();">
 			</div>
   		</div>
 		<div class="Archive-Scroller">
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean in tellus felis. Nullam tincidunt diam quis massa elementum lobortis. Pellentesque vitae lorem feugiat, porta ante ut, egestas tellus. Duis varius dictum justo laoreet vehicula. Proin non vestibulum nibh, a faucibus mauris. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc rhoncus tincidunt hendrerit. Maecenas placerat dictum diam sit amet laoreet. Cras ultrices lacus nec aliquet rutrum. Ut id metus vel elit congue pretium.Maecenas viverra accumsan mi, non volutpat magna. Duis faucibus mi vitae leo semper tristique. Integer egestas sem et dapibus vehicula. Fusce consectetur venenatis mi eget tristique. Integer viverra, odio id ullamcorper lacinia, dui enim blandit erat, at ultrices metus augue ut ante. Aenean eget sagittis ex. Nulla pharetra suscipit augue, non suscipit erat semper ac. Quisque posuere velit metus, nec mollis odio venenatis sit amet.</p>
+			<div class="2020 Year-Block">
+
+			</div>
 		</div>
 	</body>
 </html>

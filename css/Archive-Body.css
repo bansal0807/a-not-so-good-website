@@ -1,0 +1,10 @@
+body{
+	padding: 0em;
+	margin: 0em;
+}
+.Archive-Scroller{
+	overflow-y: scroll;
+	height: 85%;
+	-ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
