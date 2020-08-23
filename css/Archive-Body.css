@@ -3,8 +3,64 @@ body{
 	margin: 0em;
 }
 .Archive-Scroller{
+
 	overflow-y: scroll;
-	height: 85%;
-	-ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+	height: 75%;
+}
+.Person-Card{
+	overflow: hidden;
+	margin: 0.5em;
+	padding: 0.5em;
+	background-color: #ADD8E6;
+	width: 90%;
+	height: 30%;
+}
+.Person-Card img{
+	float: left;
+	height: 80%;
+	width:3em;
+	margin: auto;
+	padding: 0.5em;
+}
+.Person-Card h4{
+	margin: 0;
+	padding: 0;
+	float: top;
+	text-align: center;
+}
+.Person-Card h5{
+	position: relative;
+	top:2em;
+	margin: 0;
+	padding: 0;
+	float: bottom;
+	text-align: center;
+}
+.Person-Quote{
+	float: right;
+	width: 75%;
+}
+.Year-Card{
+	padding: 0.25em;
+	margin: 0.25em;
+	height: 4em;
+	background-color: #FFF;
+	text-align: center;
+}
+.Year-Block{
+	display: none;
+}
+.Year-Card button{
+	outline: none;
+	border: none;
+	margin: 0;
+	padding: 0.25em;
+	width: 80%;
+	cursor: pointer;
+	background-color: #76FC9d;
+}
+.Year-Card h2{
+	margin-top:0.5em ;
+	padding: 0em;
+	font-size: 2em;
 }

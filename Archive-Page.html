@@ -9,8 +9,23 @@
 		function ToggleMobileMenu() {
 			alert("function not complete");
 		}
+		function intToggle() {
+			document.getElementById("2020-btn").addEventListener("click",Toggle,true);
+		}
+		function Toggle(){
+			console.log("button pressed");
+			var tocol = document.getElementById("2020-Year-Block");
+			if( document.getElementById("2020-Year-Block").style.display == "block"){
+				document.getElementById("2020-Year-Block").style.display = "none";
+			}else {
+				document.getElementById("2020-Year-Block").style.display = "block";
+			}
+		}
+		function onLoad() {
+			intToggle();
+		}
 	</script>
-	<body>
+	<body onload="onLoad();">
 		<div class="header">
 			<div class="logo">
 				<a href="index.html">  <img src="res/CoSAblue.png"></a>
@@ -34,9 +49,44 @@
 			</div>
   		</div>
 		<div class="Archive-Scroller">
-			<div class="2020 Year-Block">
+			<div class="Year-Card" >
+				<button type="button" name="button" id="2020-btn">
+					<h2>2020</h2>
+				</button>
+			</div>
+			<div class="2020 Year-Block" id="2020-Year-Block">
+				<div class="Person-Card">
+					<img src="res/Archive/2020-p1.jpg" alt="COSA-Pressident">
+					<h4>COSA Pressident</h4>
+					<p class="Person-Quote">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<h5>John Doe</h5>
+				</div>
+				<div class="Person-Card">
 
+					<img src="res/Archive/2020-p2.jpg" alt="COSA-2">
+					<h4>COSA 2</h4>
+
+					<p class="Person-Quote">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<h5>John Doe</h5>
+				</div>
+				<div class="Person-Card">
+
+					<img src="res/Archive/2020-p3.jpg" alt="COSA-3">
+					<h4>COSA 3</h4>
+					<p  class="Person-Quote">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+						sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+					</p>
+					<h5>John Doe</h5>
+				</div>
 			</div>
 		</div>
+
 	</body>
 </html>
